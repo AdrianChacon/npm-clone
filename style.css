@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.35;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 20px 0;
+  height: 20px;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-left{
+  display: inline-block;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  text-align: right;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.logo-npm {
+  padding-top: 20px;
+  margin: 0 1% 0 1%;
+  width: 7%;
+  display:inline-block;
+  float: left;
+}
+#search {
+  background-color: rgb(31,82,111);
+  float:left;
+  width: 75%;
+  display: inline-block;
+  height: 29px;
+  margin-top: 20px;
+}
+.btn-search {
+  float:left;
+  display: inline-block;
+  background-color: rgb(31,82,111);
+  background-image:url("images/search-icon-1.png");
+  padding: 16px;
+  background-size: cover;
+  margin-top: 20px;
+}
+.npm-header-sign {
+  float: left;
+  display: inline-block;
+  padding-left: 5px;
+  margin-top: 30px;
+}
+.npm-header-sign a{
+  text-decoration: none;
+  color: white;
+}
+.logo-bear {
+  float:left;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: right;
+  padding: 25px 0 0 10px;
+  width: 3%;
+}
+.npm-build {
+  background-color: rgb(32, 101, 136);
+  margin: 0 auto;
+  color: white;
+  background-image:url("images/city-scape.svg");
+  background-size:cover;
+}
+.header-2 {
+  padding: 0 0 10% 10%;
+}
+.header-2 h1 {
+  font-size: 48px;
+  font-weight: 400;
+}
+.header-2 p {
+  margin: 10px 0 10px 0;
+  padding: 2px 0 20px 0;
+  font-size: 18px;
+}
+.npm-build-sign-btn {
+  background-color: rgb(240, 146, 51);
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  padding: 7px 26px 8px 26px;
+  font-size: 18px;
+  margin-right: 10px;
+  border: 1px solid 0;
+  width: 150px;
+}
+.npm-orgs {
+  color: white;
+  background-color: rgb(39,53,71);
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+}
+.npm-orgs .more-orgs{
+  text-decoration: none;
+}
+.npm-orgs-image{
+  float: left;
+  width: 40%;
+  display: inline-block;
+  margin-left: 15%;
+}
+.npm-orgs-text {
+  float: left;
+  line-height: 2;
+  padding: 0 10px 0 40px;
+  width: 40%;
+  display: inline-block;
+}
+.npm-orgs-btn {
+  background-color: rgb(203,56,55);
+  border: 1px solid 0;
+  font-size: 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  box-sizing: border-box;
+  padding: 8px 26px;
+  margin-top: 10px;
+}
+.npm-orgs-more {
+  text-decoration: none;
+  color: white;
+}
+.npm-what{
+  background-image:url("images/forklift.svg");
+  background-size: cover;
+  padding: 5% 0 15% 15%;
+  color: white;
+}
+.npm-what-text{
+  padding: 10px 0;
+  line-height: 20px;
+  font-size: 16px;
+}
+.npm-what-install {
+    background-color: rgb(49,68,88);
+    border: 1px solid 0;
+    font-size: 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    padding: 8px 26px;
+    margin-top: 20px;
+    display:inline-block;
+}
+.npm-blocks-center{
+  text-align:center;
+}
+.blocks-1 {
+  color: rgb(83,88,98);
+  background-color: white;
+  text-align: center;
+  font-size: 36px;
+  margin: 20px 0;
+}
+.blocks-2 {
+ color: rgb(135,145,156);
+ background-color: white;
+ text-align: center;
+ line-height: 20px;
+}
+.blocks-2 article {
+  padding: 5% 0 15% 15%;
+
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+
+}
+.npm-blocks-link {
+  color: rgb(208,74,73);
+  text-decoration: none;
+}
+.npm-blocks-find {
+text-align:center;
+margin: 0 auto;
+}
+.col {
+  float: left;
+  padding: 10px;
+  display: block;
+  padding: 20px;
+}
+.col-3 {
+  width: 25%;
+}
+.col-middle {
+  margin: 0 5% 0 5%;
+}
+.clearfix {
+  clear: both;
+}
+.container {
+  margin: 0 auto;
+  padding: 30px 10px 30px 10px;
+  width: 1160px;
+  display: block;
+  box-sizing: border-box;
+}
